@@ -1,0 +1,26 @@
+.hearder-top {
+    display: flex;
+    gap: 800px;
+    align-items: center;
+}
+.header-last{
+    display: flex;
+    margin-left: 750px;
+    gap: 50px;
+    margin-top: 20px;
+}
+#addstd {
+    width: 150px;
+    height: 30px;
+}
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
