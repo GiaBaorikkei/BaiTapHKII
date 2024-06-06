@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        async function sumWithAsyncAwait(arr) {
+            if (!Array.isArray(arr) || arr.some(num => typeof num !== 'number')) {
+                reject(new Error("Tất cả các phần tử trong mảng phải là số."));
+            }
+            const sum = arr.reduce((acc, num) => acc + num, 0);
+            return sum;
+        }
+        const numArray = [1, 2, 3, 4, 5,6,7];
+        (async () => {
+            try {
+                const sum = await sumWithAsyncAwait(numArray);
+                console.log("Tổng của mảng là:", sum);
+            } catch (error) {
+                console.error("xảy ra lỗi", error.message);
+            }
+        })();
+    </script>
+</body>
+</html>
