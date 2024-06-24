@@ -65,7 +65,7 @@ export default function App() {
         </thead>
         <tbody>
         {stateBook.map((item:Book,index:number) => {
-            return (
+            return (      
               <tr key={item.id}>
                 <td>{index+1}</td>
                 <td>{item.name}</td>

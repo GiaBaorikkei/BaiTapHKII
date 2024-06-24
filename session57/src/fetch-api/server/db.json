@@ -1,0 +1,86 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "product_name": "Samsung Galaxy S20",
+        "image": "https://example.com/images/samsung-galaxy-s20.jpg",
+        "price": 900,
+        "quantity": 15,
+        "created_at": "2024-03-10T09:30:00Z"
+      },
+      {
+        "id": "2",
+        "product_name": "Sony PlayStation 5",
+        "image": "https://example.com/images/sony-playstation-5.jpg",
+        "price": 500,
+        "quantity": 5,
+        "created_at": "2024-04-20T14:15:00Z"
+      },
+      {
+        "id": "3",
+        "product_name": "Canon EOS R5",
+        "image": "https://example.com/images/canon-eos-r5.jpg",
+        "price": 3500,
+        "quantity": 3,
+        "created_at": "2024-05-30T16:45:00Z"
+      },
+      {
+        "id": "4",
+        "product_name": "Apple AirPods Pro",
+        "image": "https://example.com/images/apple-airpods-pro.jpg",
+        "price": 250,
+        "quantity": 20,
+        "created_at": "2024-06-05T11:30:00Z"
+      },
+      {
+        "id": "5",
+        "product_name": "LG OLED55CXPUA 55-Inch 4K Smart OLED TV",
+        "image": "https://example.com/images/lg-oled-tv.jpg",
+        "price": 2000,
+        "quantity": 8,
+        "created_at": "2024-06-08T10:00:00Z"
+      }
+    ],
+    "productB7": [
+      {
+        "id": "6",
+        "name": "Banana",
+        "price": 2,
+        "quantity": 50,
+        "dateAdded": "2024-06-01",
+        "image": "https://example.com/images/banana.jpg"
+      },
+      {
+        "id": "7",
+        "name": "Orange",
+        "price": 1.5,
+        "quantity": 40,
+        "dateAdded": "2024-06-02",
+        "image": "https://example.com/images/orange.jpg"
+      },
+      {
+        "id": "8",
+        "name": "Watermelon",
+        "price": 5,
+        "quantity": 10,
+        "dateAdded": "2024-06-03",
+        "image": "https://example.com/images/watermelon.jpg"
+      },
+      {
+        "id": "9",
+        "name": "Pineapple",
+        "price": 3,
+        "quantity": 20,
+        "dateAdded": "2024-06-04",
+        "image": "https://example.com/images/pineapple.jpg"
+      },
+      {
+        "id": "10",
+        "name": "Grapes",
+        "price": 4,
+        "quantity": 30,
+        "dateAdded": "2024-06-05",
+        "image": "https://example.com/images/grapes.jpg"
+      }
+    ]
+  }
