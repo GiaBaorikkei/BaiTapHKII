@@ -10,7 +10,7 @@ const ListJob = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (newTask.trim() === '') {
-      // Hiển thị modal cảnh báo lỗi khi tên công việc trống
+      // Hiển thị modal cảnh báo lỗi khi tên công việc đang trống
     
       return;
     }
